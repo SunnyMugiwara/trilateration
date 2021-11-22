@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>RTLS</title>
+</head>
+
+<body>
+    <div>
+        <h1>RTLS Indoor Position - Multilateração</h1>
+    </div>
+    <div>
+        <canvas id="canvas" width="1100" height="700"></canvas>
+        <canvas id="layer1" width="1100" height="700"></canvas>
+        <canvas id="layer2" width="1100" height="700"></canvas>
+    </div>
+    <script src="js/canvas.js"></script>
+    <script type="text/javascript">
+        document.onload = inicializacao_calculando_distancias();
+    </script>
+</body>
+
+</html>
